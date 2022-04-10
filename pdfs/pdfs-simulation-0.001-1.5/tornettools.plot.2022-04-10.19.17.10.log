@@ -1,0 +1,82 @@
+2022-04-10 19:17:10 1649611030.524596 [tornettools] [INFO] Logging system initialized! Logging events to stdout and to '/home/achudy/tornettools/pdfs-simulation-0.001-1.5/tornettools.plot.2022-04-10.19.17.10.log'
+2022-04-10 19:17:10 1649611030.524739 [tornettools] [INFO] Seeded standard and numpy PRNGs with seed=908878632
+2022-04-10 19:17:10 1649611030.524820 [tornettools] [INFO] The argument namespace is: Namespace(_didremovedefault=True, colors=None, command='plot', do_version=False, formatter_class=<class '__main__.CustomHelpFormatter'>, func=<function plot at 0x7f0cb88f6700>, labels=None, plot_all=False, plot_pngs=False, prefix='/home/achudy/tornettools/pdfs-simulation-0.001-1.5', quiet=0, seed=908878632, tor_metrics_path=[['/home/achudy/tornettools/tor_metrics_2020-11-01--2020-11-30.json', None, None]], tornet_collection_path=['/home/achudy/tornettools/simulation-0.001-1.5'])
+2022-04-10 19:17:10 1649611030.531969 [tornettools] [INFO] The platform is: Linux-5.13.0-39-generic-x86_64-with-glibc2.29
+2022-04-10 19:17:10 1649611030.532027 [tornettools] [INFO] System info: uname_result(system='Linux', node='dell', release='5.13.0-39-generic', version='#44~20.04.1-Ubuntu SMP Thu Mar 24 16:43:35 UTC 2022', machine='x86_64', processor='x86_64')
+2022-04-10 19:17:11 1649611031.285440 [tornettools] [INFO] Plotting simulation results now
+2022-04-10 19:17:11 1649611031.285657 [tornettools] [INFO] Plotting tornet comparisons
+2022-04-10 19:17:11 1649611031.285939 [tornettools] [INFO] Loading tornet resource usage data
+2022-04-10 19:17:11 1649611031.285997 [tornettools] [INFO] Searching for files containing resource_usage.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:11 1649611031.286227 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/resource_usage.json
+2022-04-10 19:17:11 1649611031.298594 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:11 1649611031.854573 [tornettools] [INFO] Loading Tor metrics data
+2022-04-10 19:17:11 1649611031.935441 [tornettools] [INFO] Loading tornet relay goodput data
+2022-04-10 19:17:11 1649611031.935549 [tornettools] [INFO] Searching for files containing relay_goodput.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:11 1649611031.935820 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/relay_goodput.json
+2022-04-10 19:17:11 1649611031.949359 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:11 1649611031.950175 [tornettools] [INFO] Searching for files containing simulation_info.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:11 1649611031.950412 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/simulation_info.json
+2022-04-10 19:17:11 1649611031.970109 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:11 1649611031.970234 [tornettools] [INFO] Found simulated network scale 0.001
+2022-04-10 19:17:11 1649611031.970281 [tornettools] [INFO] Plotting relay goodput
+2022-04-10 19:17:12 1649611032.111090 [tornettools] [INFO] Loading exit tornet circuit build time data
+2022-04-10 19:17:12 1649611032.111310 [tornettools] [INFO] Searching for files matching perfclient_circuit_build_time(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:12 1649611032.111480 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_circuit_build_time.exit.json
+2022-04-10 19:17:12 1649611032.125065 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:12 1649611032.126338 [tornettools] [INFO] Plotting exit circuit build times
+2022-04-10 19:17:12 1649611032.393409 [tornettools] [INFO] Loading exit tornet round trip time data
+2022-04-10 19:17:12 1649611032.393615 [tornettools] [INFO] Searching for files matching round_trip_time(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:12 1649611032.393785 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/round_trip_time.exit.json
+2022-04-10 19:17:12 1649611032.407325 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:12 1649611032.407907 [tornettools] [INFO] Plotting exit round trip times
+2022-04-10 19:17:12 1649611032.669452 [tornettools] [INFO] Loading exit tornet transfer time data
+2022-04-10 19:17:12 1649611032.669680 [tornettools] [INFO] Searching for files matching time_to_last_byte_recv(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:12 1649611032.669863 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/time_to_last_byte_recv.exit.json
+2022-04-10 19:17:12 1649611032.683250 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:12 1649611032.684254 [tornettools] [INFO] Plotting transfer times
+2022-04-10 19:17:13 1649611033.408407 [tornettools] [INFO] Loading exit tornet goodput data
+2022-04-10 19:17:13 1649611033.408617 [tornettools] [INFO] Searching for files matching perfclient_goodput(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:13 1649611033.408790 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_goodput.exit.json
+2022-04-10 19:17:13 1649611033.422930 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:13 1649611033.423419 [tornettools] [INFO] Plotting exit client goodput
+2022-04-10 19:17:13 1649611033.658992 [tornettools] [INFO] Loading exit tornet goodput data 5MiB
+2022-04-10 19:17:13 1649611033.659207 [tornettools] [INFO] Searching for files matching perfclient_goodput_5MiB(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:13 1649611033.659380 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_goodput_5MiB.exit.json
+2022-04-10 19:17:13 1649611033.672922 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:13 1649611033.673125 [tornettools] [INFO] Plotting exit client goodput [5 MiB]
+2022-04-10 19:17:13 1649611033.906232 [tornettools] [INFO] Loading exit tornet transfer error rate data
+2022-04-10 19:17:13 1649611033.906446 [tornettools] [INFO] Searching for files matching error_rate(\.exit)?\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:13 1649611033.906631 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/error_rate.exit.json
+2022-04-10 19:17:13 1649611033.920106 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:13 1649611033.920341 [tornettools] [INFO] Plotting exit transfer error rates
+2022-04-10 19:17:14 1649611034.054264 [tornettools] [INFO] Loading onionservice tornet circuit build time data
+2022-04-10 19:17:14 1649611034.054498 [tornettools] [INFO] Searching for files matching perfclient_circuit_build_time\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.054696 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_circuit_build_time.onionservice.json
+2022-04-10 19:17:14 1649611034.068467 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.068634 [tornettools] [INFO] Plotting onionservice circuit build times
+2022-04-10 19:17:14 1649611034.178956 [tornettools] [INFO] Loading onionservice tornet round trip time data
+2022-04-10 19:17:14 1649611034.179158 [tornettools] [INFO] Searching for files matching round_trip_time\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.179335 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/round_trip_time.onionservice.json
+2022-04-10 19:17:14 1649611034.192678 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.192816 [tornettools] [INFO] Plotting onionservice round trip times
+2022-04-10 19:17:14 1649611034.303660 [tornettools] [INFO] Loading onionservice tornet transfer time data
+2022-04-10 19:17:14 1649611034.303869 [tornettools] [INFO] Searching for files matching time_to_last_byte_recv\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.304066 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/time_to_last_byte_recv.onionservice.json
+2022-04-10 19:17:14 1649611034.317538 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.317672 [tornettools] [INFO] Plotting transfer times
+2022-04-10 19:17:14 1649611034.656022 [tornettools] [INFO] Loading onionservice tornet goodput data
+2022-04-10 19:17:14 1649611034.656235 [tornettools] [INFO] Searching for files matching perfclient_goodput\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.656421 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_goodput.onionservice.json
+2022-04-10 19:17:14 1649611034.669971 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.670106 [tornettools] [INFO] Plotting onionservice client goodput
+2022-04-10 19:17:14 1649611034.818159 [tornettools] [INFO] Loading onionservice tornet goodput data 5MiB
+2022-04-10 19:17:14 1649611034.818371 [tornettools] [INFO] Searching for files matching perfclient_goodput_5MiB\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.818551 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/perfclient_goodput_5MiB.onionservice.json
+2022-04-10 19:17:14 1649611034.832100 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.832234 [tornettools] [INFO] Plotting onionservice client goodput [5 MiB]
+2022-04-10 19:17:14 1649611034.945010 [tornettools] [INFO] Loading onionservice tornet transfer error rate data
+2022-04-10 19:17:14 1649611034.945228 [tornettools] [INFO] Searching for files matching error_rate\.onionservice\.json in directory tree at /home/achudy/tornettools/simulation-0.001-1.5
+2022-04-10 19:17:14 1649611034.945433 [tornettools] [INFO] Found /home/achudy/tornettools/simulation-0.001-1.5/tornet.plot.data/error_rate.onionservice.json
+2022-04-10 19:17:14 1649611034.958872 [tornettools] [INFO] Found 1 total files
+2022-04-10 19:17:14 1649611034.959035 [tornettools] [INFO] Plotting onionservice transfer error rates
+2022-04-10 19:17:15 1649611035.078609 [tornettools] [INFO] Done plotting! PDF files are saved to /home/achudy/tornettools/pdfs-simulation-0.001-1.5
